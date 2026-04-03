@@ -44,6 +44,12 @@ Quick start
 3. Abre los notebooks en el directorio notebooks/ con Jupyter:
    jupyter lab
 
+## Quick Demo
+
+Run a basic training loop:
+
+```bash
+python src/train.py --episodes 100
 Installation
 - Recomendado: Python 3.8+.
 - Instala las dependencias:

@@ -80,6 +80,14 @@ Run a basic training loop:
 ```bash
 python src/train.py --episodes 100
 
+## Results
+
+| Metric              | Before | After |
+|--------------------|--------|-------|
+| Curtailment (%)    | 18%    | 7%    |
+| Battery efficiency | 65%    | 82%   |
+| Grid stability     | Medium | High  |
+
 Contributing
 - Si deseas contribuir, abre un issue o PR.
 - Incluye descripciones claras y pasos para reproducir bugs.

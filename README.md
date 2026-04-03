@@ -88,7 +88,14 @@ python src/train.py --episodes 100
 | Battery efficiency | 65%    | 82%   |
 | Grid stability     | Medium | High  |
 
-Contributing
+## Road Map
+
+- [ ] Implement PPO
+- [ ] Add real-world grid dataset
+- [ ] Multi-agent coordination
+- [ ] Deployment simulation
+
+ Contributing
 - Si deseas contribuir, abre un issue o PR.
 - Incluye descripciones claras y pasos para reproducir bugs.
 

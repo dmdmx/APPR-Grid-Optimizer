@@ -2,6 +2,14 @@
 
 APPR (Adaptive Power & Policy Routing) is a reinforcement learning-based framework designed to dynamically optimize energy flow across grid-constrained environments.
 # APPR-Grid-Optimizer
+## Problem Definition
+
+Solar curtailment occurs when energy production exceeds transmission or storage capacity.
+
+This project models the grid as an environment where an agent:
+- Observes: solar generation, demand, battery state, transmission limits
+- Acts: charge/discharge batteries, allocate transmission capacity
+- Objective: minimize curtailment while maintaining grid stability
 
 [![License](https://img.shields.io/github/license/sampolmx/APPR-Grid-Optimizer)](https://github.com/sampolmx/APPR-Grid-Optimizer/blob/main/LICENSE) [![Repo size](https://img.shields.io/github/repo-size/sampolmx/APPR-Grid-Optimizer)](https://github.com/sampolmx/APPR-Grid-Optimizer) [![Top language](https://img.shields.io/github/languages/top/sampolmx/APPR-Grid-Optimizer)](https://github.com/sampolmx/APPR-Grid-Optimizer) [![Python](https://img.shields.io/badge/python-3.8%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
 
